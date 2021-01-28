@@ -1,0 +1,15 @@
+.Alert {
+  width: 300px;
+  height: 40px;
+  color: white;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  position: absolute;
+  top: 125px;
+  left: 80px;
+}

@@ -1,0 +1,35 @@
+.ContactList {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 400px;
+  list-style: none;
+}
+
+.Item-animation-appear {
+  transform: translateX(-100%);
+}
+
+.Item-animation-appear-active {
+  transform: translateX(0);
+  transition: transform 250ms linear;
+}
+
+.Item-animation-enter {
+  transform: translateX(-100%);
+}
+
+.Item-animation-enter-active {
+  transform: translateX(0);
+  transition: transform 250ms linear;
+}
+
+.Item-animation-exit {
+  transform: translateX(0);
+}
+
+.Item-animation-exit-active {
+  transform: translateX(-100%);
+  transition: transform 250ms linear;
+}

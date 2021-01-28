@@ -1,0 +1,35 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(7, 7, 7, 0.5);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.ContactForm_label {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px 15px 5px;
+}
+
+.ContactForm_input {
+  width: 350px;
+  height: 30px;
+}
+
+.ContactForm_btn {
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  width: 360px;
+  margin-bottom: 10px;
+  height: 30px;
+  background-color: rgb(54,69,171);
+}
+
+.ContactForm_btn:hover {
+  box-shadow: 0px 2px 1px 1px rgba(141, 134, 134, 0.15);
+  background-color: rgb(69, 81, 156);
+}

@@ -1,0 +1,38 @@
+.Container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.Logo {
+  color: #3645ab;
+  font-size: 60px;
+  margin: 0;
+}
+
+.PhoneBook-logo-appear {
+  transform: translateX(-100%);
+}
+
+.PhoneBook-logo-appear-active {
+  transform: translateX(0);
+  transition: transform 500ms linear;
+}
+
+.AlertTransition-enter {
+  transform: translateY(-100%);
+}
+
+.AlertTransition-enter-active {
+  transform: translateY(0);
+  transition: transform 250ms linear;
+}
+
+.AlertTransition-exit {
+  transform: translateY(0);
+}
+
+.AlertTransition-exit-active {
+  transform: translateY(-100%);
+  transition: transform 250ms linear;
+}

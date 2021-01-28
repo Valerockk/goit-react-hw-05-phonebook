@@ -1,0 +1,21 @@
+.ContactList_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  list-style: none;
+  padding: 10px 5px;
+  margin: 0;
+  box-shadow: 0 0 5px rgba(7, 7, 7, 0.5);
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+.ContactList_item_btn {
+    background-color: red;
+    color: ivory;
+    border: ivory;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
